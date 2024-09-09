@@ -1,14 +1,23 @@
 import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import Homepage from "./components/Homepage";
+import MatchDetails from "./components/MatchDetails";
+import TeamDetails from "./components/TeamDetails";
+import Header from "./components/Header";
 
 function App() {
   // const [count, setCount] = useState(0);
 
   return (
-    <Routes>
-      <Route path="/" element={<Homepage />} />
-    </Routes>
+    <>
+      <Header />
+
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/match-details" element={<MatchDetails />} />
+        <Route path="/team-details" element={<TeamDetails />} />
+      </Routes>
+    </>
   );
 }
 
