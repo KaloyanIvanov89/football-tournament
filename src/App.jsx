@@ -6,8 +6,6 @@ import TeamDetails from "./components/TeamDetails";
 import Header from "./components/Header";
 
 function App() {
-  // const [count, setCount] = useState(0);
-
   return (
     <>
       <Header />

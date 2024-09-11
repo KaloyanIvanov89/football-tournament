@@ -1,0 +1,51 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+  background-color: #1e1e1e;
+  width: auto;
+}
+
+.table-container {
+  background-color: #2c2c2c;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.table-container h2,
+.table-container p {
+  color: #e0e0e0;
+  margin: 0;
+  padding: 10px;
+  background-color: #333;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+  padding: 10px;
+  text-align: center;
+  color: #e0e0e0;
+}
+
+.table-container th {
+  background-color: #444;
+}
+
+.table-container tr:nth-child(even) {
+  background-color: #2a2a2a;
+}
+
+.table-container tr:nth-child(odd) {
+  background-color: #333;
+}
+
+.table-container td {
+  border-bottom: 1px solid #555;
+}

@@ -1,9 +1,7 @@
-import CsvDataLoader from "../utils/CsvDataLoader";
-
 export default function MatchDetails() {
   return (
     <>
-      <CsvDataLoader />
+      <div>Match Details</div>
     </>
   );
 }
